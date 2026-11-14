@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
 import 'bloc/cart_page_bloc.dart';
 import 'cubit/cart_page_cubit.dart';
 import 'riverpod/cart_page_riverpod.dart';

@@ -1,17 +1,11 @@
 # cart_four_ways
 
-A new Flutter project.
 
-## Getting Started
+Name: Sotvoldiyeva Mavluda
+ID:240456
 
-This project is a starting point for a Flutter application.
+# Answers 
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Cateline is immutable becuse we have to keep track of change in Ui. Setstate could work , but UI might not update because the state-management system cannot detect the change. 
+2. Cartbody usually uses callback to separate Ui from statemanagement logic. Additionly it can  be used for 4 of them without changing cartbody. 
+3. 

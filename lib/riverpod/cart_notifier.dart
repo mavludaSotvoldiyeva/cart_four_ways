@@ -1,8 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
 import '../models/cart.dart';
 import '../services/checkout_api.dart';
-
 final checkoutApiProvider = Provider<CheckoutApi>((ref) => const CheckoutApi());
 
 final cartProvider = NotifierProvider.autoDispose<CartNotifier, CartState>(
